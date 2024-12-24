@@ -1,0 +1,30 @@
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+   }
+  .timer {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    font-size: 69px;
+  }
+  .container{
+    max-width: 600px;
+    padding-top: 30px;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin: 0 auto;
+    background-color: darkslateblue;
+    border: 2px solid darkslateblue;
+    border-radius: 19px;
+    text-align: center;
+  }
+  button {
+    background-color: rgb(133, 110, 156);
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 10px;
+    cursor: pointer;
+  }
